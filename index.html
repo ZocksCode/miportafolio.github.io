@@ -55,7 +55,7 @@
                 tiempo real,
                 veras desde lo más bajo <br> hasta lo mas alto y sí no tienes ninguna duda y quieres ejercer <br> algún
                 proyecto conmigo no dudes en <strong>contáctarme.</strong> </p>
-                <a download="Mi Curriculo" href="curriculo/micurriculun.pdf">Descargar Curriculum</a>
+                <a download="Mi Curriculo" href="curriculo/micurriculun.pdf"><i class="fa-solid fa-file-arrow-down" style="color: #ffd500;"></i></i>Descargar Curriculum</a>
         </div>
         <div class="social">
             <h1>Sigueme en mis <span>Redes</span></h1><br>
@@ -104,7 +104,7 @@
             <br>
             <div class="pdimagenes">
                 <div class="card">
-                    <div class="image"></div>
+                    <div class="image"><img src="images/Sin título.png" class="zoom" alt=""></div>
                     <div class="content">
                         <a href="#">
                             <span class="title">
@@ -128,17 +128,17 @@
                 </div>
                 <br>
                 <div class="card">
-                    <div class="image"></div>
+                    <div class="image"><img src="images/Sin título1.png" class="zoom" alt=""></div>
                     <div class="content">
                         <a href="#">
                             <span class="title">
-                                Aumentando el Progreso.
+                                Página de Mantenimiento.
                             </span>
                         </a>
 
                         <p class="desc">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-                            dolores, possimus pariatur animi temporibus nesciunt praesentium
+                            Aquí como puedemos observar esta parte de mi trabajo y es una <strong>CMS en mantenimiento</strong> con contador incluido
+                            (Sí se fijan en donde dice <strong>"Abrir Informacion"</strong> que sale marcado con un <strong>+2</strong> como notificacion indica los cambios que se han hecho en la web).
                         </p>
 
                         <a href="#" class="action">
@@ -151,7 +151,7 @@
                 </div>
                 <br>
                 <div class="card">
-                    <div class="image"></div>
+                    <div class="image"><img src="https://i.ytimg.com/vi/ilLoIk5XMgg/maxresdefault.jpg" class="zoom" alt=""></div>
                     <div class="content">
                         <a href="#">
                             <span class="title">
@@ -176,7 +176,7 @@
             </div>
             <div class="pdimagenes">
                 <div class="card">
-                    <div class="image"></div>
+                    <div class="image" style="background: black;"><img src="images/Sin título2.png" class="zoom" style="width: 150px;margin-left: 70px;" alt=""></div>
                     <div class="content">
                         <a href="#">
                             <span class="title">
@@ -199,7 +199,7 @@
                 </div>
                 <br>
                 <div class="card">
-                    <div class="image"></div>
+                    <div class="image"><img src="https://pbs.twimg.com/media/Ete6rOnXcAIo5E2.jpg:large" class="zoom" alt=""></div>
                     <div class="content">
                         <a href="#">
                             <span class="title">
@@ -222,7 +222,7 @@
                 </div>
                 <br>
                 <div class="card">
-                    <div class="image"></div>
+                    <div class="image"><img src="https://webescuela.com/wp-content/uploads/2020/08/desarrollador-web.png" class="zoom" alt=""></div>
                     <div class="content">
                         <a href="#">
                             <span class="title">
@@ -365,6 +365,36 @@
         </section>
     </main>
 
+    <!--::::Pie de Pagina::::::-->
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="images/logo1.png" alt="Mi Logo">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>¡Gracias por entrar!</h2>
+                <p>"Con Esfuerzo todo es Posible"</p>
+                <p>Sí quieres contrartarme para uno de mis servicios por favor contáctame por <strong style="color:dodgerblue;">Twitter.</strong></p>
+            </div>
+            <div class="box">
+                <h2>--> SIGUENOS <--</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                    <a href="https://github.com/ZocksCode" class="fa fa-github"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>Zocks</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
@@ -416,7 +446,17 @@
             popup.classList.remove('active');
         });
     </script>
+    <script>
+        $(document).ready(function(){
+            $('.zoom').hover(function() {
+                $(this).addClass('transition');
+            }, function() {
+                $(this).removeClass('transition');
+            });
+        });
+        </script>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 </body>
 
 </html>
