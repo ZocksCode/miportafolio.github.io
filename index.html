@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal</title>
+    <link rel="shortcut icon" href="images/portafolio (1).png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/fa0cc6e22e.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="body">
+    <div class="aviso-cookies" id="aviso-cookies">
+        <img class="galleta" src="./img/cookie.svg" alt="Galleta">
+        <h3 class="titulo">Cookies</h3>
+        <p class="parrafo">Utilizamos cookies propias y de terceros para mejorar nuestros servicios.</p>
+        <button class="boton" id="btn-aceptar-cookies">De acuerdo</button>
+        <a class="enlace" href="aviso-cookies.html">Aviso de Cookies</a>
+    </div>
+    <div class="fondo-aviso-cookies" id="fondo-aviso-cookies"></div>
+    <div class="hero" id="inicio">
+        <nav>
+            <img src="images/logo1.png" class="logo">
+            <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <input type="checkbox" id="favorite" name="favorite-checkbox" value="favorite-button">
+                <label for="favorite" class="container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-heart">
+                        <path
+                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                        </path>
+                    </svg>
+                    <div class="actionvf">
+                        <span class="option-2">Agrega mi portafolio a favoritos</span>
+                        <span checked="checked" class="option-1">¡Me añadiste! :D</span>
+                    </div>
+                </label>
+            </ul>
+        </nav>
+        <div class="detel">
+            <h1>Hola, soy <span>Zocks</span></h1>
+
+            <BODY onLoad="popupWin()"></BODY>
+            <p><strong>Bienvenido a mi portafolio online</strong>, aquí podras obtener <br> parte de mi trabajo en
+                tiempo real,
+                veras desde lo más bajo <br> hasta lo mas alto y sí no tienes ninguna duda y quieres ejercer <br> algún
+                proyecto conmigo no dudes en <strong>contáctarme.</strong> </p>
+                <a download="Mi Curriculo" href="curriculo/micurriculun.pdf">Descargar Curriculum</a>
+        </div>
+        <div class="social">
+            <h1>Sigueme en mis <span>Redes</span></h1><br>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="images">
+            <img src="images/shape.png" class="Fondo">
+            <img src="images/18915856.png" class="Yo">
+        </div>
+        <div class="navegacion">
+            <a href="#inicio"><i class="fa-solid fa-house" title="Inicio"></i></a>
+            <a href="#web"><i class="fa-solid fa-cloud" title="Página (Pronto)"></i></a>
+            <a href="#galeria"><i class="fa-solid fa-camera-retro" title="Galeria"></i></a>
+            <a href="#algo_de_mi"><i class="fa-solid fa-comment" title="Mi Trabajo"></i></a>
+            <a href="#quien_soy"><i class="fa-solid fa-user" title="¿Quién Soy?"></i></a>
+            <a href="#quien_soy"><i class="fa-solid fa-bell" title="Toma un tip" id="abreme"></i></a>
+        </div>
+        <div class="contenedor">
+            <div class="overlay" id="overlay">
+                <div class="popup" id="popup">
+                    <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+                    <h1><i class="fa-solid fa-lightbulb"></i> Toma un <span>Tip</span></h1>
+                    <br>
+                    <hr>
+                    <br>
+                    <h4>"Las grandes oportunidades no se presentan dos veces, y sí lo hacen no es una oportunidad"</h4>
+                    <form action="">
+                        <div class="contenedor-inputs">
+                            <input type="text" placeholder="Nombre">
+                            <input type="email" placeholder="Correo">
+                        </div>
+                        <input type="submit" class="btn-submit" value="Suscribirse">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main id="galeria">
+        <section>
+            <h2>Imagenes de mi <span>Trabajo</span></h2>
+            <br>
+            <hr>
+            <br>
+            <div class="pdimagenes">
+                <div class="card">
+                    <div class="image"></div>
+                    <div class="content">
+                        <a href="#">
+                            <span class="title">
+                                Mis Primeras Raices
+                            </span>
+                        </a>
+
+                        <p class="desc">
+                            Constantemente estoy en creación de contenido para ir poco a poco
+                            rellenando mi hoja de vida, espero que veas como fue mi progreso desde el
+                            inicio hasta hoy, la actualidad
+                        </p>
+
+                        <a href="#" class="action">
+                            Espero deje huella
+                            <span aria-hidden="true">
+                                ❤
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="image"></div>
+                    <div class="content">
+                        <a href="#">
+                            <span class="title">
+                                Aumentando el Progreso.
+                            </span>
+                        </a>
+
+                        <p class="desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                            dolores, possimus pariatur animi temporibus nesciunt praesentium
+                        </p>
+
+                        <a href="#" class="action">
+                            Find out more
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="image"></div>
+                    <div class="content">
+                        <a href="#">
+                            <span class="title">
+                                Rompiendo Barreras.
+                            </span>
+                        </a>
+
+                        <p class="desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                            dolores, possimus pariatur animi temporibus nesciunt praesentium
+                        </p>
+
+                        <a href="#" class="action">
+                            Find out more
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div class="pdimagenes">
+                <div class="card">
+                    <div class="image"></div>
+                    <div class="content">
+                        <a href="#">
+                            <span class="title">
+                                Ayudando Comunidades.
+                            </span>
+                        </a>
+
+                        <p class="desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                            dolores, possimus pariatur animi temporibus nesciunt praesentium
+                        </p>
+
+                        <a href="#" class="action">
+                            Find out more
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="image"></div>
+                    <div class="content">
+                        <a href="#">
+                            <span class="title">
+                                Ofreciendo Servicios.
+                            </span>
+                        </a>
+
+                        <p class="desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                            dolores, possimus pariatur animi temporibus nesciunt praesentium
+                        </p>
+
+                        <a href="#" class="action">
+                            Find out more
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="image"></div>
+                    <div class="content">
+                        <a href="#">
+                            <span class="title">
+                                Mejorando la Marca.
+                            </span>
+                        </a>
+
+                        <p class="desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                            dolores, possimus pariatur animi temporibus nesciunt praesentium
+                        </p>
+
+                        <a href="#" class="action">
+                            Find out more
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </section>
+        <section id="algo_de_mi">
+            <h2>Mi <span>Trabajo</span></h2>
+            <br>
+            <hr>
+            <br>
+            <div class="estadisticas">
+                <div class="headerk">Mis Estadisticas de Lenguajes</div>
+                <div class="bodyk">
+                  <div class="skill">
+                    <div class="skill-name">HTML</div>
+                    <div class="skill-level">
+                      <div class="skill-percent" style="width: 100%"></div>
+                    </div>
+                    <div class="skill-percent-number">100%</div>
+                  </div>
+                  <div class="skill">
+                    <div class="skill-name">CSS</div>
+                    <div class="skill-level">
+                      <div class="skill-percent" style="width: 90%"></div>
+                    </div>
+                    <div class="skill-percent-number">90%</div>
+                  </div>
+                  <div class="skill">
+                    <div class="skill-name">JavaScript</div>
+                    <div class="skill-level">
+                      <div class="skill-percent" style="width: 25%"></div>
+                    </div>
+                    <div class="skill-percent-number">25%</div>
+                  </div>
+                  <div class="skill">
+                    <div class="skill-name">PHP</div>
+                    <div class="skill-level">
+                      <div class="skill-percent" style="width: 10%"></div>
+                    </div>
+                    <div class="skill-percent-number">10%</div>
+                  </div>
+                  <div class="skill">
+                    <div class="skill-name">Python</div>
+                    <div class="skill-level">
+                      <div class="skill-percent" style="width: 10%"></div>
+                    </div>
+                    <div class="skill-percent-number">10%</div>
+                  </div>
+                </div>
+            </div>
+            <br>
+            <div class="recuadro">
+            <p><img src="https://mallorcaculturaltours.com/wp-content/uploads/2020/08/comillas-png-2.png" style="width:5%;" alt="Comillas">Claramente aquí estas viendo una serie de estadisticas en <strong>TIEMPO REAL</strong>, actualmente luego de la Universidad
+            estoy aprendiendo el lenguaje de Python para luego PHP, "Sí fuera conmenzado con PHP y luego Python", pero me gustan los retos así
+        que el que quiere aprender es por que le gusta lo que hace y a mi me gusta, a parte de esto muchach@s te dejare una tabla con referencias
+    a llamados de supervicion de arreglos de codigo y más por si te interesa</p>
+</div>
+            <br>
+            <div class="estadisticas">
+                <div class="headerk">Respuestas a Problemas</div>
+                <div class="bodyk">
+                  <div class="skill">
+                    <div class="skill-name">Revision de Codigo</div>
+                    <div class="skill-level">
+                      <div class="skill-percent" style="width: 100%"></div>
+                    </div>
+                    <div class="skill-percent-number">100%</div>
+                  </div>
+                  <div class="skill">
+                    <div class="skill-name">Mejoras de Estilos</div>
+                    <div class="skill-level">
+                      <div class="skill-percent" style="width: 100%"></div>
+                    </div>
+                    <div class="skill-percent-number">100%</div>
+                  </div>
+                  <div class="skill">
+                    <div class="skill-name">Autonomia del Usuario</div>
+                    <div class="skill-level">
+                      <div class="skill-percent" style="width: 75%"></div>
+                    </div>
+                    <div class="skill-percent-number">75%</div>
+                  </div>
+                </div>
+            </div>
+            <br>
+            <div class="recuadro">
+                <p><img src="https://mallorcaculturaltours.com/wp-content/uploads/2020/08/comillas-png-2.png" style="width:5%;" alt="Comillas"> Aparte de todas las habilidades, no te confundas, mayormente me gusta hacer publico el contenido que quiero mejorar
+                    en plan Páginas Web - ayudo a la comunidad le brindo servicio de tiempo limitado y listo, me ayudo, los ayudo y una comunidad
+                    adaptable
+                </p>
+    </div>
+    <br>
+    <div class="sociales">
+            <blockquote class="twitter-tweet"><p lang="es" dir="ltr">¡Se estarán promocionando ofertas limitadas! - APROVECHALAS AL MÁXIMO ❤.</p>&mdash; Zocks 👨‍💻 (@ZocksGaming) <a href="https://twitter.com/ZocksGaming/status/1637741442138251265?ref_src=twsrc%5Etfw">March 20, 2023</a></blockquote>
+            <blockquote class="twitter-tweet"><p lang="es" dir="ltr">Se estarán realizando las siguientes codificaciones:<br><br>Páginas Web<br>CMS de Juegos<br>Landing Page<br>Portafolios<br>Publicidad<br><br>El medio a pedir será por aquí, déjame tu apoyo &quot;❤&quot; sí te gusta la idea<br><br>Inicio: Hoy - Finaliza: En un Mes.</p>&mdash; Zocks 👨‍💻 (@ZocksGaming) <a href="https://twitter.com/ZocksGaming/status/1637744000428900352?ref_src=twsrc%5Etfw">March 20, 2023</a></blockquote>
+        </div>
+        </section>
+        <section id="quien_soy">
+            <h2>Mi <span>Historia</span></h2>
+            <br>
+            <hr>
+            <br>
+            <div class="example">
+                <blockquote>
+                    <p>Me llamo Manuel, tengo 19 añoS y soy estudiante de la <strong>Universidad</strong>
+                        mi pasiÓn por la informatica empezo desde muy pequeño cuando jugaba recuerdo que eran
+                        <strong>Habbo Holos</strong>
+                        en ese momento empezo a gustarme lo que seria programar CMS en ese momento y luego de allí
+                        empeze a tomarle el
+                        gusto...
+                        luego de un tiempo le tome el gusto por crear <strong>Servidores en MTA</strong> lo que seria
+                        index, etc etc...
+                        hasta que bueno llegue a todo esto
+                        gracias a la programación, mi camino si a sido un poco duro a pesar de todo, pero todo es un
+                        proceso no?, por el
+                        cual uno debe pasar también por muchos tropesones
+                        y aprender de cada uno de ellos, espero que todo mi contenido te este gustando y tanto tu como
+                        yo podamos trabajar
+                        esos proyectos al 100% =)</p>
+                </blockquote>
+            </div>
+        </section>
+    </main>
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MB7HJ8K');</script>
+    <!-- End Google Tag Manager -->
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script>
+        const botonAceptarCookies = document.getElementById('btn-aceptar-cookies');
+        const avisoCookies = document.getElementById('cookie-card');
+
+        dataLayer = [];
+
+        if (!localStorage.getItem('cookies-aceptadas')) {
+            avisoCookies.classList.add('activo');
+            fondoAvisoCookies.classList.add('activo');
+        } else {
+            dataLayer.push({ 'event': 'cookies-aceptadas' });
+        }
+
+        botonAceptarCookies.addEventListener('click', () => {
+            avisoCookies.classList.remove('activo');
+            fondoAvisoCookies.classList.remove('activo');
+
+            localStorage.setItem('cookies-aceptadas', true);
+
+            dataLayer.push({ 'event': 'cookies-aceptadas' });
+        });
+    </script>
+
+    <script>
+        var btnAbrirPopup = document.getElementById('abreme'),
+            overlay = document.getElementById('overlay'),
+            popup = document.getElementById('popup'),
+            btnCerrarPopup = document.getElementById('btn-cerrar-popup');
+
+        btnAbrirPopup.addEventListener('click', function () {
+            overlay.classList.add('active');
+            popup.classList.add('active');
+        });
+
+        btnCerrarPopup.addEventListener('click', function (e) {
+            e.preventDefault();
+            overlay.classList.remove('active');
+            popup.classList.remove('active');
+        });
+    </script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+
+</html>
